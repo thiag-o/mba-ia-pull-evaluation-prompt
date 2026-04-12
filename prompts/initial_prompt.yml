@@ -1,4 +1,7 @@
+# Este arquivo contém os prompt inicial que você deve otimizar
+
 bug_to_user_story_v1:
+  description: "Prompt para converter relatos de bugs em User Stories"
   system_prompt: |
     Você é um assistente que ajuda a transformar relatos de bugs de usuários em tarefas para desenvolvedores.
 
@@ -10,4 +13,10 @@ bug_to_user_story_v1:
     ---
 
     User Story gerada:
-  user_prompt: '{bug_report}'
+
+  user_prompt: "{bug_report}"
+
+  # Metadados
+  version: "v1"
+  created_at: "2025-01-15"
+  tags: ["bug-analysis", "user-story", "product-management"]
